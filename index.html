@@ -19,15 +19,99 @@
   </head>
   <body>
     <div class="page">
-      Testando...
       <header class="header">
-        <nav class="nav"></nav>
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Triple Expresso Logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#recipes">Receitas</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#reservation">Reservar uma mesa</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#menu">Menu</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#about">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Café especial</span><br />
+          na biblioteca Triple Peaks
+        </h1>
+        <p class="header__description">
+          Bem-vindo à nossa zona de estudo! Temos aquele cafezinho para
+          energizar você e vibrações aconchegantes para ajudá-lo a ser criativo.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Illustration 'Inside Coffe Shop'"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <div class="header__opening-time">
+            <ul class="header__paragraph">
+              <li class="header__paragraph-item">Horários:</li>
+              <li class="header__paragraph-item">
+                Segunda a sexta (10:00 – 19:00)
+              </li>
+              <li class="header__paragraph-item">
+                Sábado a Domingo (11:00 – 18:00)
+              </li>
+            </ul>
+            <p class="header__address">
+              200 Success Avenue, a cidade de Triple Peaks
+            </p>
+          </div>
+        </div>
       </header>
       <main class="content">
-        <section class="recipes"></section>
-        <section class="reservation"></section>
-        <section class="menu"></section>
-        <section class="about"></section>
+        <section id="recipes" class="recipes">
+          <h2 class="recipes__title">Receitas</h2>
+          <p class="recipes__subtitle">
+            Confira algumas receitas que coletamos para seu lanchinho caseiro:
+          </p>
+          <ul class="recipes__videos">
+            <li class="recipes__video">
+              <iframe
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=XhmuElT_UJr71lig"
+                title="YouTube video player"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-caption">
+                <p class="recipes__paragraph">Receita Aeropress</p>
+                <p class="recipes__paragraph">~5 min</p>
+              </div>
+            </li>
+            <li class="recipes__video">
+              <iframe
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=cUdEOki8a1Q6jtjt"
+                title="YouTube video player"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-caption">
+                <p class="recipes__paragraph">Receita Prensa Francesa</p>
+                <p class="recipes__paragraph">~15 min</p>
+              </div>
+            </li>
+            <div class="recipes__video-caption"></div>
+          </ul>
+        </section>
+        <section id="reservation" class="reservation"></section>
+        <section id="menu" class="menu"></section>
+        <section id="about" class="about"></section>
       </main>
       <footer class="footer"></footer>
     </div>
