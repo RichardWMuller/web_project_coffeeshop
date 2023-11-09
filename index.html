@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Richard Machado" />
     <meta name="description" content="Coffeshop Web-Project" />
-    <meta name="keywords" content="recipes, reservation, menu, about" />
+    <meta name="keywords" content="recipes, reservation, menu, coffe shop" />
     <title>Café</title>
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
@@ -104,7 +104,65 @@
             </li>
           </ul>
         </section>
-        <section id="reservation" class="reservation"></section>
+        <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+          <form class="form reservation__form">
+            <fieldset class="form form__fieldset">
+              <label class="form__label">
+                <span class="form__label-text">Nome *</span>
+                <input
+                  class="form__input"
+                  type="text"
+                  name="name"
+                  placeholder="Nome"
+                  required
+                />
+              </label>
+
+              <label class="form__label">
+                <span class="form__label-number">Número de convidados *</span>
+                <input
+                  class="form__input"
+                  type="number"
+                  name="guests"
+                  placeholder="1-8"
+                  min="1"
+                  max="8"
+                  required
+                />
+              </label>
+
+              <label class="form__label">
+                <span class="form__label-datetime-local">Data & hora *</span>
+                <input
+                  class="form__input"
+                  type="datetime-local"
+                  name="date"
+                  required
+                />
+              </label>
+              <label class="form__label">
+                <span class="form__label-datetime-local">Seu e-mail *</span>
+                <input
+                  class="form__input"
+                  type="email"
+                  name="email"
+                  placeholder="email@email.com"
+                  required
+                />
+              </label>
+            </fieldset>
+           <button class="form__button">Reservar uma mesa</button>
+            <label class="form__label form__label_type_checkbox">
+              <input
+                type="checkbox"
+                class="form__input_type_checkbox"
+              />
+              <span class="form__label-text"
+                >Eu concordo com os termos de uso</span
+              >
+            </label>
+        </section>
         <section id="menu" class="menu"></section>
         <section id="about" class="about"></section>
       </main>
