@@ -210,8 +210,8 @@ color: #838383
   display: flex;
   flex-direction: column;
   width: 100%;
-  gap: 32px;
   border: 0;
+  gap: 32px;
   
 }
 
@@ -222,6 +222,7 @@ color: #838383
   padding: 0;
   width: 100%;
   max-width: 385px;
+  gap: 32px;
 }
 
 .form__label{
