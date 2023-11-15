@@ -2,10 +2,7 @@
 
 Tecnologias utilizadas:
 
-- HTML
-- CSS
-- Metodoliga BEM
-- Git e GitHub
+HTML, CSS, BEM, Git e GitHub
 
 Melhoria que pode ser aplicada:
 
