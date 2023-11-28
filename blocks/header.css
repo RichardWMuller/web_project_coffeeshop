@@ -30,10 +30,9 @@
   font-weight: normal;
   font-size: 60px;
   line-height: 72px;
-}
-.span{
   display: block;
 }
+
 .header__description{
   max-width:683px;
   margin-top: 28px;
